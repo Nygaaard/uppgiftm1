@@ -1,0 +1,10 @@
+footer {
+    background-color: rgb(164, 18, 18);
+    color: #fff;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.link:hover {
+    color: blue;
+}

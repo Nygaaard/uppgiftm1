@@ -3,12 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  max-width: 1300px;
-  margin: 0 auto;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.7em;
-  background-color: orangered;
-}
