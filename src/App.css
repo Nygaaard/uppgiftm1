@@ -1,5 +1,28 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  background-color: #fff4e6;
+  color: #333;
+}
+
+
+
+/* Main Layout Styles */
+main {
+  padding: 20px;
+}
+
+main div {
+  display: flex;
+  flex-wrap: wrap;
 }

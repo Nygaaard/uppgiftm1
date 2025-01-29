@@ -1,0 +1,53 @@
+/* MovieCard.css */
+
+.movie-card {
+    background-color: #fff9f2;
+    /* Ljus persikofärgad bakgrund */
+    border: 1px solid #e0a96d;
+    /* Varmare kantfärg */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card h2 {
+    font-size: 1.5rem;
+    color: #cc5500;
+    /* Varma färger för text */
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin: 5px 0;
+    color: #b35900;
+    /* Varmare textfärg */
+}
+
+.movie-card.watched {
+    border-color: #4caf50;
+}
+
+.movie-card.not-watched {
+    border-color: #f44336;
+}
+
+/* Responsiv layout */
+@media (max-width: 768px) {
+    .movie-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .movie-card {
+        flex: 1 1 100%;
+    }
+}
