@@ -47,8 +47,10 @@ const App = () => {
 
   return (
     <>
-      {/*Header*/}
-      <Header />
+      {/*Header
+      Lägg till title
+      */}
+      <Header title="Film-stugan" />
       <main>
         <div style={{display: "flex", flexWrap: "wrap"}}>
           {
